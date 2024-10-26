@@ -1,5 +1,6 @@
-a = int(input("enter a: "))
-b = int(input("enter b: "))
-print("Is 'a' greater than 'b' : ", a>b)
-print("the average of a & b : ", (a+b)/2)
-print("the squares of a & b are ", a**2,"&", b**2, "resp.")  #here ^ is invalid in python
+a = "This is not your Dad's hotel, just   pay and get lost"
+b = a.find("  ")
+print("double space is there in the string:", b!=-1)
+#find function detect or find whatever is in double quotes.
+print(a.replace("  ", " "))
+print(a) #Strings are immutable which means that you cannot change them by running function on them.
