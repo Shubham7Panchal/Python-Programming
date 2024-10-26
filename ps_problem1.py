@@ -1,5 +1,5 @@
-import pyttsx3
-engine = pyttsx3.init()
-engine.say("I am Shubham who is programming python right now.")
-engine.say("chai bolo chai.")
-engine.runAndWait()
+
+z = int(input("Enter 1st number: "))
+a = int(input("Enter 2nd number: "))
+
+print("Re1mainder is ",z%a)
