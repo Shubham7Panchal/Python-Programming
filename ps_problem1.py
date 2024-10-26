@@ -1,8 +1,5 @@
-name = input("enter your name: ")
-print(f"Good Morning {name}") ## Note the Way of writing
-Date = input("Enter Date: ")
-letter = '''Dear Name, 
-Congrats!!!
-You are selected!
-Date'''
-print(letter.replace("Name", name).replace("Date", Date))   #this is Chaining of replace string function.
+list = [1,2,3,4]
+print(sum(list))    #it is a function to add all list elements
+
+a = (7,0,8,0,000,9)     #here it will return 3 instead of 5
+print(a.count(0))
